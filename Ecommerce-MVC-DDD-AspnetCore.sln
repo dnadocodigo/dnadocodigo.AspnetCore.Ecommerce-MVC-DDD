@@ -35,6 +35,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Applicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.Web", "src\UI.Web\UI.Web.csproj", "{4E57FF80-D6C3-4A91-B3EA-57B0E42703E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.1 -Backup", "0.1 -Backup", "{F0FDAD42-0DD2-4FFB-84A4-A88FA7A0C5B6}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Project_Backup\Classes_principais.zip = Documents\Project_Backup\Classes_principais.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +84,7 @@ Global
 		{46688F37-E064-471C-880A-5835C04F7862} = {A9DEFBC7-C4BC-48E5-812C-7C9221CC8A64}
 		{77EF19E6-A651-491B-B96B-1DD91EE14C5B} = {CA14872A-9CD2-4EA8-A005-A11F9CCC0A84}
 		{4E57FF80-D6C3-4A91-B3EA-57B0E42703E2} = {6B905D25-A8C1-4BA1-B17D-C3B9A666A153}
+		{F0FDAD42-0DD2-4FFB-84A4-A88FA7A0C5B6} = {820B6373-8C56-4397-BC3D-A86571C43FBB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E966312A-1665-461E-A709-C7953A442AAF}

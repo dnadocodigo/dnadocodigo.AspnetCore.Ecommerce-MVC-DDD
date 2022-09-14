@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Application.Interfaces.Generics
@@ -12,7 +10,7 @@ namespace Application.Interfaces.Generics
     /// para a aplicação
     /// </summary>
     public interface IGenericApp<T> where T : class
-    { 
+    {
         //Crud
         Task Add(T obj);
         Task Update(T obj);

@@ -2,9 +2,7 @@
 using Domain.Interfaces.IServices.Products;
 using Domain.Interfaces.Products;
 using Entity.Entities.Products;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Application.OpenApp.Products
