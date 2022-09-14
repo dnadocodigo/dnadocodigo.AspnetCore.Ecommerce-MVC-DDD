@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2;3.1 - Infra.CrossCuttings
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{9BE4E59E-B5D0-4FAB-86B1-CD5886313E44}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.3.1.0 -Entities", "2.3.1.0 -Entities", "{26AF5ED3-DF6A-471C-B72A-DCE85427F99F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.3.1.0 - Entities", "2.3.1.0 - Entities", "{26AF5ED3-DF6A-471C-B72A-DCE85427F99F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "src\Entity\Entity.csproj", "{5EF4633D-B8F1-4747-BD97-CE67CCFDAAF6}"
 EndProject
