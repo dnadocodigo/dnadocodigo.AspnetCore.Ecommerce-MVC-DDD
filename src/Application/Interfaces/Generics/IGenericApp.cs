@@ -5,7 +5,13 @@ using System.Threading.Tasks;
 
 namespace Application.Interfaces.Generics
 {
-    public interface IGenericApp
+    /// <summary>
+    /// Interface genérica 
+    /// para definir os métodos
+    /// que serão dispomibilizados
+    /// para a aplicação
+    /// </summary>
+    public interface IGenericApp<T> where T : class
     { 
         //Crud
         Task Add(T obj);
