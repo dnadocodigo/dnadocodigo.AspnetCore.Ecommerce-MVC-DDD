@@ -18,15 +18,13 @@ namespace Domain.Services.Products
         }
 
         public async Task ProductAdd(Product product)
-        {
+        {  
             var validateName = product.StringPropertyValidations(product.Name, "Name");
             var validateValues = product.DecimalPropertyValidations(product.Value, "Value");
-            var validateQauntityStock = product.IntPropertyValidations(product.QuantityStock, "QuantityStock");
+            
 
-            if (validateName && validateValues && validateQauntityStock)
+            if (validateName && validateValues)
             {
-                product.RegistrationDate = DateTime.Now;
-                product.ChangeDate = DateTime.Now;
                 product.Status = true;
                 await _Iproduct.Add(product);
             }
@@ -36,18 +34,12 @@ namespace Domain.Services.Products
         {
             var validateName = product.StringPropertyValidations(product.Name, "Name");
             var validateValues = product.DecimalPropertyValidations(product.Value, "Value");
-            var validateQauntityStock = product.IntPropertyValidations(product.QuantityStock, "QuantityStock");
 
-            if (validateName && validateValues && validateQauntityStock)
+            if (validateName && validateValues)
             {
-                product.ChangeDate = DateTime.Now;
                 await _Iproduct.Update(product);
             }
         }
 
-        public async Task<List<Product>> ProductsListWithStock()
-        {
-            return await _Iproduct.ProductsList(p => p.QuantityStock > 0);
-        }
     }
 }
